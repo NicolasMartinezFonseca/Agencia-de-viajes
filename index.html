@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="es">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="img/logo.png" />
+</head>
+<body>
+
+        <header>
+            <nav class="navbar navbar-expand-lg bg-sena">
+                <div class="container">
+                  <a href="#" id="logo"><img src="img/logo.png" id="logo2"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-end"  id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#nosotros">Acerca</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#servicios">Servicios</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#preguntas-frecuentes">Preguntas</a>
+                      </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#destinos">Destinos</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#ofertas">Ofertas</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#hospedaje">hospedaje</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#contactos">Contacto</a>
+                          </li>
+                      </li>                      
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+
+              <div id="carouselHeroCaptions" class="carousel slide" data-bs-ride="carousel">
+
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselHeroCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselHeroCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselHeroCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselHeroCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+
+                <div class="carousel-inner">
+                  
+
+                  <div class="carousel-item active">
+                    <img src="img/img1.jpg" class="d-block w-100" alt="Slide 1">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="carouselimg">lago baikal, Rusia en invierno</h5>
+                      <p class="carouselimg">En temporada de invierno el lago baikal en rusia es destino curioso para vacaciones con perfectos bloques de hielo azul.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/img2.jpg" class="d-block w-100" alt="Slide 2">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="carouselimg">Salar de Uyuni, Bolivia</h5>
+                      <p class="carouselimg">Ubicado en bolivia se encuentra uno de los desiertos de sales mas grandes del mundo ideal para un viaje turistico.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/img3.jpg" class="d-block w-100" alt="Slide 3">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="carouselimg">Socotra Island, Yemen</h5>
+                      <p class="carouselimg">Arboles exoticos y paisajes irreales un lugar magico para un viaje en familia de nunca olvidar.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/img4.jpg" class="d-block w-100" alt="Slide 4">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="carouselimg">Lago Blausee, Suiza</h5>
+                      <p class="carouselimg">Ubicado en suiza se encuentra un lago cristalino con un color perfecto cual cielo rodeado de arboles con colores vivos para conectar con la naturaleza.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselHeroCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselHeroCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </header>
+
+        <main>
+            <section id="nosotros">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="img/nosotros.gif" alt="">
+                        </div>
+                        <div class="col-md-6">
+                        <h1>Sobre Nosotros</h1>
+                        <p>Somos una agencia de viajes que se encarga de que tu viaje sea inolvidable, llevamos 14 años pensando en la mejor manera de hacer que tus vuelos sean como aquella primera vez que fuiste de vacaciones y comenzaste a explorar el mundo <br>
+                        New Horizons te trae los destinos mas irreales para que salgas del planeta sin salir de el y a su vez traemos vuelos con precios especiales para que tengas la mejor experiencia y confort en cualquiera que sea la razon de tu viaje. ya estas decidido? cuentanos donde quieres ir!</p>
+
+                        <a href="#">Conocer Mas</a>
+                    </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="servicios">
+                <div class="container text-center">
+                    <h2>Nuestros<br> <span>Servicios</span></h2>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="card-servicio" id="img1">
+                                <img src="img/servicios/img1.jpg" alt="Servicio1"class="w-100">
+
+                                <a href="">Viaje Playero</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="card-servicio" id="img2">
+                                <img src="img/servicios/img2.jpg" alt="Servicio1"class="w-100">
+
+                                <a href="">Viaje Rural</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="card-servicio" id="img3">
+                                <img src="img/servicios/img3.jpg" alt="Servicio1"class="w-100">
+
+                                <a href="">Viaje Cultural</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="card-servicio" id="img4">
+                                <img src="img/servicios/img4.jpg" alt="Servicio1"class="w-100">
+
+                                <a href="">Viaje de Negocios</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="card-servicio" id="img5">
+                                <img src="img/servicios/img5.jpg" alt="Servicio1"class="w-100">
+
+                                <a href="">Viaje Solitario</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="card-servicio" id="img6">
+                                <img src="img/servicios/img6.jpg" alt="Servicio1"class="w-100">
+
+                                <a href="">Viaje Familiar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="preguntas-frecuentes">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-4">
+                    <img src="img/undraw_Faq_re_31cw.png" class="w-100" alt="preguntas">
+                  </div>
+                  <div class="col-lg-8 p-left">
+                    <h2>Preguntas Frecuentes</h2>
+                    <p>Tu pregunta se encuentra aqui?</p>
+
+                    <div class="accordion" id="accordionQuestion">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            ¿Como puedo programar un vuelo?
+                          </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionQuestion">
+                          <div class="accordion-body">
+                            <strong>Por medio de la seccion de destinos</strong> se encuentra un apartado para asignar la fecha que necesitas el vuelo y el sistema te marcará si tu fecha solicitada se encuentra disponible para tu vuelo.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            ¿Como puedo encontrar hoteles en el destino al que quiero viajar?
+                          </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionQuestion">
+                          <div class="accordion-body">
+                            <strong>Por medio de la seccion hospedaje.</strong> Una pregunta y preocupación bastante frecuente es el contacto, acuerdo de precios y reservación en el hotel mas cercano al area donde quieres hacer tu viaje, pero tranquilo en la seccion hospedaje encontraras todo para que puedas tener tu viaje sin preocupaciones y con los mejores descuentos.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            ¿Existen descuentos?
+                          </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionQuestion">
+                          <div class="accordion-body">
+                            <strong>Asi es.</strong> Sabemos lo tedioso que es ahorrar para un viaje de cualquier tipo asi que pensando en tus comodidades por medio de los descuentos es que hacemos que tu viaje se haga lo mas economico para que disfrutes de mas lujos en tu destino.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section id="reviews">
+              <div class="container">
+                <div id="carouselReview" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <h2>Sabias que los aviones son el modo de transporte mas seguro del mundo? no dejes que el miedo te haga perder maravillosos momentos!</h2>
+                    </div>
+                    <div class="carousel-item">
+                      <h2>Se ha demostrado que los viajes mejoran tu estado emocional!</h2>
+                    </div>
+                    <div class="carousel-item">
+                      <h2>Sabias que viajar reduce considerablemente el nivel de estres? busca lugares tranquilos y haz contacto con la naturaleza!</h2>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselReview" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselReview" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+            </section>
+
+            <section id="destinos">
+              <h2>Destinos</h2>
+              <div class="mb-3">
+                <label for="formGroupQuestionInput" class="form-label">Elija el punto de partida</label>
+                <input type="text" class="form-control" id="formGroupQuestionInput" placeholder="Elija su punto de partida">
+              </div>
+              <label for="formGroupQuestionInput" class="form-label">Elija el destino</label>
+              <input type="text" class="form-control" id="formGroupQuestionInput" placeholder="Elija su destino">
+            </div>
+            <br>
+              <div class="mb-3">
+                <label for="formGroupQuestionInput2" class="form-label">Fecha de ida</label>
+                <input type="date" class="form-control" id="formGroupQuestionInput2" placeholder="Fecha de ida">
+              </div>
+              <div class="mb-3">
+                <label for="formGroupQuestionInput2" class="form-label">Fecha de vuelta</label>
+                <input type="date" class="form-control" id="formGroupQuestionInput2" placeholder="Fecha de vuelta">
+              </div>
+              <div class="d-grid gap-2 col-6 mx-auto">
+                <button class="btn btn-primary" type="button">Buscar Vuelo</button>
+              </div>
+            </section>
+
+            <section id="ofertas">
+              <div class="container text-center">
+                  <h2 class="text-warning">Ofertas<br> <span class="text-warning">Doradas!</span></h2>
+                  <hr>
+                  <div class="row">
+
+                    <div class="col-lg-4 col-md-6">
+                      <div class="card card-servicio" style="width: 18rem;">
+                          <img src="img/ofertas/img1.jpg" alt="Servicio1"class="w-100 ">
+                          <div class="card-body">
+                            <h5 class="card-title">Oferta Berlin</h5>
+                            <p class="card-text">Desde <strong>Octubre 13</strong> hasta <strong>Diciembre 13</strong></p>
+                            <hr>
+                            <p>Vuelo parte desde <strong>Bogotá</strong> Hasta <strong>Berlin</strong></p>
+                            <hr>
+                            <p class="text-danger">Antes: 1.350.000</p>
+                            <hr>
+                            <p class="text-success">Ahora: 1.000.000</p>
+                            <a href="#" class="btn btn-primary">Conocer Mas</a>
+                          </div>
+                      </div>
+                  </div>
+
+                      <div class="col-lg-4 col-md-6">
+                          <div class="card" style="width: 18rem;">
+                              <img src="img/ofertas/img2.jpg" alt="Servicio1"class="w-100">
+                              <div class="card-body">
+                                <h5 class="card-title">Oferta Australia</h5>
+                                <p class="card-text">Desde <strong>Octubre 25</strong> hasta <strong>Diciembre 25</strong></p>
+                                <hr>
+                                <p>Vuelo parte desde <strong>Bogotá</strong> Hasta <strong>Australia</strong></p>
+                                <hr>
+                                <p class="text-danger">Antes: 1.100.000</p>
+                                <hr>
+                                <p class="text-success">Ahora: 980.000</p>
+                                <a href="#" class="btn btn-primary">Conocer Mas</a>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="col-lg-4 col-md-6">
+                          <div class="card" style="width: 18rem;">
+                              <img src="img/ofertas/img3.jpg" alt="Servicio1"class="w-100">
+                              <div class="card-body">
+                                <h5 class="card-title">Oferta Mexico</h5>
+                                <p class="card-text">Desde <strong>Octubre 16</strong> hasta <strong>Diciembre 16</strong></p>
+                                <hr>
+                                <p>Vuelo parte desde <strong>Bogotá</strong> Hasta <strong>Mexico</strong></p>
+                                <hr>
+                                <p class="text-danger">Antes: 1.090.000</p>
+                                <hr>
+                                <p class="text-success">Ahora: 760.000</p>
+                                <a href="#" class="btn btn-primary">Conocer Mas</a>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="col-lg-4 col-md-6">
+                          <div class="card" style="width: 18rem;">
+                              <img src="img/ofertas/img4.jpg" alt="Servicio1"class="w-100">
+                              <div class="card-body">
+                                <h5 class="card-title">Oferta Hong Kong</h5>
+                                <p class="card-text">Desde <strong>Octubre 19</strong> hasta <strong>Diciembre 19</strong></p>
+                                <hr>
+                                <p>Vuelo parte desde <strong>Bogotá</strong> Hasta <strong>Hong Kong</strong></p>
+                                <hr>
+                                <p class="text-danger">Antes: 1.550.000</p>
+                                <hr>
+                                <p class="text-success">Ahora: 1.200.000</p>
+                                <a href="#" class="btn btn-primary">Conocer Mas</a>
+                              </div>
+                          </div>
+                      </div>
+
+                    <div class="col-lg-4 col-md-6">
+                      <div class="card" style="width: 18rem;">
+                          <img src="img/ofertas/img5.jpg" alt="Servicio1"class="w-100 ">
+                          <div class="card-body">
+                            <h5 class="card-title">Oferta New Jersey</h5>
+                            <p class="card-text">Desde <strong>Octubre 20</strong> hasta <strong>Diciembre 20</strong></p>
+                            <hr>
+                            <p>Vuelo parte desde <strong>Bogotá</strong> Hasta <strong>New Jersey</strong></p>
+                            <hr>
+                            <p class="text-danger">Antes: 1.250.000</p>
+                            <hr>
+                            <p class="text-success">Ahora: 1.100.000</p>
+                            <a href="#" class="btn btn-primary">Conocer Mas</a>
+                          </div>
+                      </div>
+                  </div>
+
+                      <div class="col-lg-4 col-md-6">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/ofertas/img6.jpg" alt="Servicio1"class="w-100 ">
+                            <div class="card-body">
+                              <h5 class="card-title">Oferta Canada</h5>
+                              <p class="card-text">Desde <strong>Octubre 30</strong> hasta <strong>Diciembre 30</strong></p>
+                              <hr>
+                              <p>Vuelo parte desde <strong>Bogotá</strong> Hasta <strong>Canada</strong></p>
+                              <hr>
+                              <p class="text-danger">Antes: 1.060.000</p>
+                              <hr>
+                              <p class="text-success">Ahora: 980.000</p>
+                              <a href="#" class="btn btn-primary">Conocer Mas</a>
+                            </div>
+                        </div>
+                    </div>
+
+                  </div>
+                  <hr>
+              </div>
+          </section>
+
+          
+          <section id="hospedaje">
+            <h2>Hospedaje</h2>
+            <div class="mb-3">
+            <label for="exampleDataList" class="form-label">Ingresa tu lugar de destino</label>
+            <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Busca tu lugar de hospedaje">
+            <datalist id="datalistOptions">
+              <option value="Berlin">
+              <option value="Australia">
+              <option value="Mexico">
+              <option value="Hong Kong">
+              <option value="Canada">
+              <option value="Bogotá">
+              <option value="New Jersey">
+              <option value="Washington DC">
+            </datalist>
+          <br>
+            <div class="mb-3">
+              <label for="formGroupQuestionInput2">Fecha de ida</label>
+              <input type="date" class="form-control" id="formGroupQuestionInput2" placeholder="Fecha de ida">
+            </div>
+            <div class="mb-3">
+              <label for="formGroupQuestionInput2" class="form-label">Fecha de vuelta</label>
+              <input type="date" class="form-control" id="formGroupQuestionInput2" placeholder="Fecha de vuelta">
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <button class="btn btn-primary" type="button">Buscar Hospedaje</button>
+            </div>
+            </div>
+          </section>
+
+
+            <section id="contactos">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+
+                <h2>Contactanos!</h2>
+                <p>Tienes alguna queja o reclamo? háznoslo saber!</p>
+                <form>
+                    <div class="mb-3">
+                      <label for="QuestionInputEmail1" class="form-label">Nombres</label>
+                      <input type="text" class="form-control" id="QuestionInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                      <label for="QuestionInputPassword1" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="QuestionInputPassword1">
+                    </div>
+                    <div class="mb-3">
+                        <label for="QuestionFormControlTextarea1" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="QuestionFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+                </div>
+                <div class="col-lg-6">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.396572868413!2d-74.146093!3d4.7009694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9cb6430f8607%3A0x8eea5954ef14af30!2sAeropuerto%20Internacional%20El%20Dorado!5e0!3m2!1ses-419!2sco!4v1697759886810!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+            </section>
+        </main>
+
+        <footer> 
+            <p>© 2023 - Nicolas Steven Martinez Fonseca 2617500 ADSO</p>
+        </footer>
+
+    
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
